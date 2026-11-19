@@ -75,7 +75,7 @@ class Lz4Compressor(Compressor):
             import lz4.block
         except ImportError as err:
             msg = (
-                "lz4 library in not installed in your Python environment, "
+                "lz4 library is not installed in your Python environment, "
                 "therefore the compressed block in this ASDF file "
                 "can not be decompressed."
             )
